@@ -15,7 +15,7 @@
     <a class="header__site-name site-name">
       <span class="site-name__item">Cat</span> energy
     </a>
-    <nav class="nav">
+    <nav class="header__nav nav">
       <button class="nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
@@ -39,7 +39,7 @@
 
     <!-- preview -->
     <section class="preview">
-      <h2 class="preview__title title-lvl-2">Функциональное питание для котов</h2>
+      <h2 class="preview__title heading-lvl-2">Функциональное питание для котов</h2>
       <p class="preview__text">Занялся собой? Займись котом!</p>
       <a class="preview__button" href="#">Подобрать программу</a>
     </section>
@@ -48,13 +48,13 @@
     <section class="product">
       <h2 class="visually-hidden">Выбор продукта</h2>
       <article class="product__item product-promo">
-        <h2 class="product-promo__title title-lvl-3">Похудение</h2>
+        <h2 class="product-promo__title heading-lvl-3">Похудение</h2>
         <p class="product-promo__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
         <a class="product-promo__link" href="#">Каталог slim</a>
       </article>
 
       <article class="product__item product-promo">
-        <h2 class="product-promo__title title-lvl-3">Набор массы</h2>
+        <h2 class="product-promo__title heading-lvl-3">Набор массы</h2>
         <p class="product-promo__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
         <a class="product-promo__link" href="#">Каталог pro</a>
       </article>
@@ -62,7 +62,7 @@
 
     <!-- benefits -->
     <section class="benefits">
-      <h2 class="benefits__title title-lvl-2">Как это работает</h2>
+      <h2 class="benefits__title heading-lvl-2">Как это работает</h2>
       <ul class="benefits__list">
         <li class="benefits__item">
           <p class="benefits__text">Функциональное питание содержит только полезные питательные вещества.</p>
@@ -81,23 +81,30 @@
 
     <!-- examples -->
     <section class="example">
-      <h2 class="example__title title-lvl-2">Живой пример</h2>
+      <h2 class="example__title heading-lvl-2">Живой пример</h2>
       <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
       <dl class="example__list example-list">
-        <dt class="example-list__value">5 кг</dt>
-        <dd class="example-list__text">снижение веса</dd>
-        <dt class="example-list__value">60 дней</dt>
-        <dd class="example-list__text">затрачено времени</dd>
+        <div class="example-list__item">
+          <dt class="example-list__value">5 кг</dt>
+          <dd class="example-list__text">снижение веса</dd>
+        </div>
+
+        <div class="example-list__item">
+          <dt class="example-list__value">60 дней</dt>
+          <dd class="example-list__text">затрачено времени</dd>
+        </div>
       </dl>
       <p class="example__price example-price">Затраты на питание: <span class="example-price__item">15 000 руб.</span></p>
       <div class="example__slider example-slider">
         <img src="" width="" height="" alt="Фото кота до употребления продукта.">
         <img src="" width="" height="" alt="Фото кота после употребления продукта.">
-        <span class="example-slider__text">Было</span>
-        <span class="example-slider__text">Стало</span>
-        <button class="example-slider__button" type="button">
-          <span class="visually-hidden">Показать результат</span>
-        </button>
+        <div class="example-slider__range">
+          <span class="example-slider__text">Было</span>
+          <span class="example-slider__text">Стало</span>
+          <button class="example-slider__button" type="button">
+            <span class="visually-hidden">Показать результат</span>
+          </button>
+        </div>
       </div>
     </section>
   </main>
@@ -126,7 +133,7 @@
         <li class="social__item">
           <a class="social__link" href="#">
             <span class="visually-hidden">Вконтакте</span>
-            <svg class="contacts-copyright__pic" width="" height="">
+            <svg class="social__pic__pic" width="" height="">
               <use xlink:href="img/sprite.svg#icon-vkontakte"></use>
             </svg>
           </a>
@@ -134,7 +141,7 @@
         <li class="social__item">
           <a class="social__link" href="#">
             <span class="visually-hidden">Инстаграм</span>
-            <svg class="contacts-copyright__pic" width="" height="">
+            <svg class="social__pic" width="" height="">
               <use xlink:href="img/sprite.svg#icon-instagram"></use>
             </svg>
           </a>
@@ -142,7 +149,7 @@
         <li class="social__item">
           <a class="social__link" href="#">
             <span class="visually-hidden">Фейсбук</span>
-            <svg class="contacts-copyright__pic" width="" height="">
+            <svg class="social__pic" width="" height="">
               <use xlink:href="img/sprite.svg#icon-facebook"></use>
             </svg>
           </a>
