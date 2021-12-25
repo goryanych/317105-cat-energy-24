@@ -1,0 +1,21 @@
+.menu-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style-type: none;
+}
+
+.menu-list__item {
+  border-top: 1px solid $border-grey;
+}
+
+.menu-list__link {
+  font-family: $font-primary;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: $basic-black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
