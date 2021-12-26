@@ -7,6 +7,7 @@ $basic-black: rgb(0, 0, 0);
 $basic-green: rgb(104, 183, 56);
 $basic-green-2: rgb(94, 170, 47);
 $basic-grey: rgb(242, 242, 242);
+$basic-white: rgb(255, 255, 255);
 
 $special-grey: rgb(205, 205, 205);
 $special-grey-2: rgb(235, 235, 235);
@@ -17,6 +18,8 @@ $special-dark-grey-2: rgb(34, 34, 34);
 $status-error: rgb(255, 130, 130);
 
 $border-grey: rgb(230, 230, 230);
+
+$mask-green: rgba(104, 183, 56, 0.85);
 
 // Effect styles
 $shadow-normal: 0 1px 3px rgba(0, 0, 0, 0.16);

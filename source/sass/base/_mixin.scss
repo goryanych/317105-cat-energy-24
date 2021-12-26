@@ -1,0 +1,6 @@
+@mixin heading($ff, $fz, $lh, $fw: bold) {
+  font-family: $ff;
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+}
