@@ -1,0 +1,18 @@
+.product-promo {
+  background-color: $basic-grey;
+}
+
+.product-promo__title {
+  @include heading($font-primary, 24px, 37px, normal);
+
+  text-transform: uppercase;
+}
+
+.product-promo__link {
+  font-family: $font-primary;
+  font-size: 16px;
+  line-height: 16px;
+  color: $basic-black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
