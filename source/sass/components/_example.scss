@@ -1,0 +1,30 @@
+.example {
+  background-color: $special-grey-3;
+}
+
+.example__title {
+  @include heading($font-primary, 36px, 40px, normal);
+}
+
+.example-list__value {
+  @include heading($font-primary, 24px, 24px, normal);
+}
+
+.example-list__text {
+  margin-left: 0;
+
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.example-price {
+  @include heading($font-primary, 14px, 20px, normal);
+
+  text-transform: uppercase;
+}
+
+.example-slider__text {
+  @include heading($font-primary, 16px, 20px, normal);
+
+  text-transform: uppercase;
+}
