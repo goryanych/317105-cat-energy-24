@@ -127,14 +127,14 @@
 
     <section class="contacts">
       <h2 class="visually-hidden">Наши контакты</h2>
-      <a class="contacts__site-name site-name">
-        <span class="site-name__item">Cat</span> energy
+      <a class="contacts__logo-name logo-name">
+        <img src="./img/logo-name.svg" width="101" height="18" alt="Логотип Cat energy.">
       </a>
       <ul class="contacts__social social">
         <li class="social__item">
           <a class="social__link" href="#">
             <span class="visually-hidden">Вконтакте</span>
-            <svg class="social__pic__pic" width="" height="">
+            <svg class="social__pic" width="" height="">
               <use xlink:href="img/sprite.svg#icon-vkontakte"></use>
             </svg>
           </a>
@@ -156,12 +156,14 @@
           </a>
         </li>
       </ul>
-      <a class="contacts__link contacts-copyright" href="#">
-        <span class="contacts-copyright__text">HTML Academy</span>
-        <svg class="contacts-copyright__pic" width="" height="">
-          <use xlink:href="img/sprite.svg#logo-htmlacademy"></use>
-        </svg>
-      </a>
+      <p class="contacts__copyright contacts-copyright" href="#">
+        <a class="contacts-copyright__link" href="#">HTML Academy</a>
+        <a class="contacts-copyright__logo" href="#">
+          <svg class="contacts-copyright__pic" width="" height="">
+            <use xlink:href="img/sprite.svg#logo-htmlacademy"></use>
+          </svg>
+        </a>
+      </p>
     </section>
   </footer>
 </body>
