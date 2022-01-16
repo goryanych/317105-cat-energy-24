@@ -10,6 +10,7 @@
 @import "./base/helpers";
 
 // Components
+@import "./components/main";
 @import "./components/menu-list";
 @import "./components/preview";
 @import "./components/button";
@@ -18,7 +19,6 @@
 @import "./components/example";
 @import "./components/example-list";
 @import "./components/example-slider";
-
 @import "./components/cooperate";
 @import "./components/contacts";
 
@@ -27,3 +27,6 @@
 @import "./components/card-list";
 @import "./components/product-extra";
 @import "./components/extra-food";
+
+// &-form
+@import "./components/main-form";
