@@ -1,0 +1,14 @@
+.preview {
+  color: $basic-white;
+}
+
+.preview__title {
+  @include heading($font-primary, 36px, 36px, normal);
+}
+
+.preview__text {
+  font-family: $font-primary;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}

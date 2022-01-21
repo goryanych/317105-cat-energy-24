@@ -1,0 +1,9 @@
+.cooperate__title {
+  @include heading($font-primary, 16px, 20px, normal);
+
+  text-transform: uppercase;
+}
+
+.cooperate-address {
+  line-height: 20px;
+}

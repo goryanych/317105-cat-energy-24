@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Academy: Кэт энерджи</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="page__body">
   <!-- header -->
   <header class="header">
     <a class="header__logo">
-      <img src="" width="" height="" alt="Логотип Кэт энерджи.">
+      <img src="./img/logo-mobile.svg" width="34" height="38" alt="Логотип Кэт энерджи.">
     </a>
-    <a class="header__site-name site-name">
-      <span class="site-name__item">Cat</span> energy
+    <a class="header__logo-name logo-name">
+      <img src="./img/logo-name.svg" width="101" height="18" alt="Логотип Cat energy.">
     </a>
     <nav class="header__nav nav">
       <button class="nav__toggle" type="button">
@@ -35,24 +36,26 @@
 
   <!-- main -->
   <main class="main">
+    <h1 class="visually-hidden">Кэт энерджи - магазин питания для котов</h1>
     <!-- preview -->
     <section class="preview">
-      <h1 class="preview__title heading-lvl-1">Функциональное питание для котов</h1>
+      <h2 class="preview__title">Функциональное питание для котов</h2>
       <p class="preview__text">Занялся собой? Займись котом!</p>
-      <a class="preview__button" href="#">Подобрать программу</a>
+      <img src="img/product-chicken.png" width="280" height="270" alt="Фото продукта.">
+      <a class="preview__button button" href="#">Подобрать программу</a>
     </section>
 
     <!-- product -->
     <section class="product">
       <h2 class="visually-hidden">Выбор продукта</h2>
       <article class="product__item product-promo">
-        <h3 class="product-promo__title heading-lvl-3">Похудение</h3>
+        <h3 class="product-promo__title">Похудение</h3>
         <p class="product-promo__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
         <a class="product-promo__link" href="#">Каталог slim</a>
       </article>
 
       <article class="product__item product-promo">
-        <h3 class="product-promo__title heading-lvl-3">Набор массы</h3>
+        <h3 class="product-promo__title">Набор массы</h3>
         <p class="product-promo__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
         <a class="product-promo__link" href="#">Каталог pro</a>
       </article>
@@ -60,7 +63,7 @@
 
     <!-- benefits -->
     <section class="benefits">
-      <h2 class="benefits__title heading-lvl-2">Как это работает</h2>
+      <h2 class="benefits__title">Как это работает</h2>
       <ul class="benefits__list">
         <li class="benefits__item">
           <p class="benefits__text">Функциональное питание содержит только полезные питательные вещества.</p>
@@ -79,7 +82,7 @@
 
     <!-- examples -->
     <section class="example">
-      <h2 class="example__title heading-lvl-2">Живой пример</h2>
+      <h2 class="example__title">Живой пример</h2>
       <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
       <dl class="example__list example-list">
         <div class="example-list__item">
@@ -124,14 +127,14 @@
 
     <section class="contacts">
       <h2 class="visually-hidden">Наши контакты</h2>
-      <a class="contacts__site-name site-name">
-        <span class="site-name__item">Cat</span> energy
+      <a class="contacts__logo-name logo-name">
+        <img src="./img/logo-name.svg" width="101" height="18" alt="Логотип Cat energy.">
       </a>
       <ul class="contacts__social social">
         <li class="social__item">
           <a class="social__link" href="#">
             <span class="visually-hidden">Вконтакте</span>
-            <svg class="social__pic__pic" width="" height="">
+            <svg class="social__pic" width="" height="">
               <use xlink:href="img/sprite.svg#icon-vkontakte"></use>
             </svg>
           </a>
@@ -153,12 +156,14 @@
           </a>
         </li>
       </ul>
-      <a class="contacts__link contacts-copyright" href="#">
-        <span class="contacts-copyright__text">HTML Academy</span>
-        <svg class="contacts-copyright__pic" width="" height="">
-          <use xlink:href="img/sprite.svg#logo-htmlacademy"></use>
-        </svg>
-      </a>
+      <p class="contacts__copyright contacts-copyright" href="#">
+        <a class="contacts-copyright__link" href="#">HTML Academy</a>
+        <a class="contacts-copyright__logo" href="#">
+          <svg class="contacts-copyright__pic" width="" height="">
+            <use xlink:href="img/sprite.svg#logo-htmlacademy"></use>
+          </svg>
+        </a>
+      </p>
     </section>
   </footer>
 </body>

@@ -1,0 +1,24 @@
+.main-form {
+  @include heading($font-primary, 16px, 18px, normal, $special-dark-grey);
+
+  text-transform: uppercase;
+
+  ::placeholder {
+    font-family: $font-primary;
+    color: $special-dark-grey;
+    text-transform: uppercase;
+  }
+}
+
+.main-form__title {
+  font-size: 24px;
+  line-height: 26px;
+  color: $basic-black;
+  text-transform: none;
+}
+
+.main-form__required {
+  @include heading($font-secondary, 14px, 16px, normal);
+
+  text-transform: none;
+}

@@ -1,0 +1,13 @@
+.example {
+  background-color: $special-grey-3;
+}
+
+.example__title {
+  @include heading($font-primary, 36px, 40px, normal);
+}
+
+.example-price {
+  @include heading($font-primary, 14px, 20px, normal);
+
+  text-transform: uppercase;
+}

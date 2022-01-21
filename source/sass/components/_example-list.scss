@@ -1,0 +1,10 @@
+.example-list__value {
+  @include heading($font-primary, 24px, 24px, normal);
+}
+
+.example-list__text {
+  margin-left: 0;
+
+  font-size: 12px;
+  line-height: 12px;
+}

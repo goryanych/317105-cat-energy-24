@@ -1,0 +1,8 @@
+.main__title {
+  @include heading($font-primary, 36px, 36px, normal);
+}
+
+.main__text {
+  font-family: $font-primary;
+  text-transform: uppercase;
+}
