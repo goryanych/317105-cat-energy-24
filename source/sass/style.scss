@@ -4,13 +4,13 @@
 @import "./abstracts/variables";
 
 // Base
-@import "./base/base";
 @import "./base/fonts";
 @import "./base/mixin";
 @import "./base/helpers";
 
 // Components
 @import "./components/page";
+@import "./components/nav";
 @import "./components/main";
 @import "./components/menu-list";
 @import "./components/preview";
@@ -33,3 +33,6 @@
 
 // &-form
 @import "./components/main-form";
+
+// Layout
+@import "./layout/header";

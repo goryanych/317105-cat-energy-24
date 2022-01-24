@@ -1,0 +1,13 @@
+.nav__menu {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__menu {
+    display: block;
+  }
+}
