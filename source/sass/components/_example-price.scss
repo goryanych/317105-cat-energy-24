@@ -1,0 +1,5 @@
+.example-price {
+  @include heading($font-primary, 14px, 20px, normal);
+
+  text-transform: uppercase;
+}

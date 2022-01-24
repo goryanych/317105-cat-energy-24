@@ -10,6 +10,7 @@
 @import "./base/helpers";
 
 // Components
+@import "./components/page";
 @import "./components/main";
 @import "./components/menu-list";
 @import "./components/preview";
@@ -19,7 +20,9 @@
 @import "./components/example";
 @import "./components/example-list";
 @import "./components/example-slider";
+@import "./components/example-price";
 @import "./components/cooperate";
+@import "./components/cooperate-address";
 @import "./components/contacts";
 
 // &-catalog
