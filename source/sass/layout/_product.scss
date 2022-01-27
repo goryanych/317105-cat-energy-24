@@ -1,0 +1,11 @@
+@media (min-width: $desktop-width) {
+  .product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .product__item {
+    width: 570px;
+  }
+}

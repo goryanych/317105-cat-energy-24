@@ -1,0 +1,28 @@
+@media (min-width: $tablet-width) {
+  .example__column {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .example__text {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+  }
+
+  .example__column {
+    grid-column: 1 / 1;
+    grid-row: 2 / -1;
+  }
+
+  .example__slider {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+  }
+}

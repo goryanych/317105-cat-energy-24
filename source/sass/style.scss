@@ -4,23 +4,28 @@
 @import "./abstracts/variables";
 
 // Base
-@import "./base/base";
 @import "./base/fonts";
 @import "./base/mixin";
 @import "./base/helpers";
 
 // Components
+@import "./components/page";
+@import "./components/nav";
 @import "./components/main";
 @import "./components/menu-list";
 @import "./components/preview";
 @import "./components/button";
 @import "./components/product-promo";
 @import "./components/benefits";
+@import "./components/benefits-list";
 @import "./components/example";
 @import "./components/example-list";
 @import "./components/example-slider";
+@import "./components/example-price";
 @import "./components/cooperate";
+@import "./components/cooperate-address";
 @import "./components/contacts";
+@import "./components/social";
 
 // &-catalog
 @import "./components/product-card";
@@ -30,3 +35,10 @@
 
 // &-form
 @import "./components/main-form";
+
+// Layout
+@import "./layout/header";
+@import "./layout/product";
+@import "./layout/example";
+@import "./layout/cooperate";
+@import "./layout/contacts";
