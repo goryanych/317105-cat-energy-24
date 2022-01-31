@@ -41,83 +41,81 @@
 
     <!-- form -->
     <form class="main-form" action="https://echo.htmlacademy.ru">
-      <fieldset class="main-form__item">
-        <legend class="visually-hidden">Информация о питомце</legend>
-        <ul class="main-form__list">
-          <li>
-            <label>
-              Имя:<sup>*</sup>
-              <input type="text" name="name" placeholder="барсик" required>
-            </label>
-          </li>
-          <li>
-            <label>
-              Вес (кг):<sup>*</sup>
-              <input type="number" name="weight" placeholder="7" required>
-            </label>
-          </li>
-          <li>
-            <label>
-              Возраст (лет):
-              <input type="number" name="age" placeholder="7">
-            </label>
-          </li>
-        </ul>
-      </fieldset>
+      <div class="main-form__wrapper">
+        <fieldset class="main-form__item">
+          <legend class="visually-hidden">Информация о питомце</legend>
+          <ul class="info-list">
+            <li>
+              <label>
+                Имя:<sup>*</sup>
+                <input type="text" name="name" placeholder="барсик" required>
+              </label>
+            </li>
+            <li>
+              <label>
+                Вес (кг):<sup>*</sup>
+                <input type="number" name="weight" placeholder="7" required>
+              </label>
+            </li>
+            <li>
+              <label>
+                Возраст (лет):
+                <input type="number" name="age" placeholder="7">
+              </label>
+            </li>
+          </ul>
+        </fieldset>
 
-      <fieldset class="main-form__item">
-        <legend class="visually-hidden">Выбор программы для питомца</legend>
-        <ul class="choice-program">
-          <li>
-            <label>
-              <input type="radio" name="choice-program" value="sliming" required>
-              <span class="choice-program__control"></span>
-              Похудение
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" name="choice-program" value="bodyweight">
-              <span class="choice-program__control"></span>
-              Набор массы
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="radio" name="choice-program" value="uncertainty">
-              <span class="choice-program__control"></span>
-              Не знаю (Нужен ваш совет)
-            </label>
-          </li>
-        </ul>
-      </fieldset>
+        <fieldset class="main-form__item">
+          <legend class="visually-hidden">Выбор программы для питомца</legend>
+          <ul class="program-list">
+            <li>
+              <label>
+                <input type="radio" name="choice-program" value="sliming" required>
+                <span class="choice-program__control"></span>
+                Похудение
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="choice-program" value="bodyweight">
+                <span class="choice-program__control"></span>
+                Набор массы
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="choice-program" value="uncertainty">
+                <span class="choice-program__control"></span>
+                Не знаю (Нужен ваш совет)
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
 
       <fieldset class="main-form__item">
         <legend class="main-form__title">Контактные данные (владельца кота)</legend>
-        <ul>
+        <ul class="owner-list">
           <li>
-            <label>
-              E-mail:<sup>*</sup>
-              <input type="email" name="email" placeholder="кuklachev@gmail.com" required>
-            </label>
+            <label for="email">E-mail:<sup>*</sup></label>
+            <input type="email" name="email" id="email" placeholder="кuklachev@gmail.com" required>
           </li>
           <li>
-            <label>
-              Телефон:<sup>*</sup>
-              <input type="tel" name="phone" placeholder="8 (960) 900-60-90" required>
-            </label>
+            <label for="phone">Телефон:<sup>*</sup></label>
+            <input type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90" required>
           </li>
         </ul>
       </fieldset>
 
-      <fieldset class="main-form__item">
+      <fieldset class="main-form__item comment">
         <legend class="main-form__title">Комментарий</legend>
-        <textarea name="" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
+        <textarea class="comment__text" name="" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
       </fieldset>
 
       <fieldset class="main-form__item">
         <legend class="main-form__title">Дополнительно</legend>
-        <ul>
+        <ul class="extra-list">
           <li>
             <label>
               <input type="checkbox" name="sweetener" checked>
@@ -144,7 +142,7 @@
           </li>
         </ul>
       </fieldset>
-      <button type="submit">Отправить заявку</button>
+      <button class="button" type="submit">Отправить заявку</button>
       <span class="main-form__required">* — Обязательные поля</span>
     </form>
   </main>

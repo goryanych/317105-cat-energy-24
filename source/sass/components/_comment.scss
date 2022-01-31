@@ -1,0 +1,8 @@
+.comment__text {
+  width: 100%;
+  height: 174px;
+
+  @include heading($font-primary, 20px, 30px, normal, $special-dark-grey);
+
+  text-transform: uppercase;
+}

@@ -35,6 +35,11 @@
 
 // &-form
 @import "./components/main-form";
+@import "./components/info-list";
+@import "./components/program-list";
+@import "./components/owner-list";
+@import "./components/comment";
+@import "./components/extra-list";
 
 // Layout
 @import "./layout/header";
@@ -47,3 +52,8 @@
 @import "./layout/catalog";
 @import "./layout/extra-food";
 @import "./layout/product-extra";
+
+// &-form
+@import "./layout/main-form";
+@import "./layout/owner-list";
+@import "./layout/extra-list";
