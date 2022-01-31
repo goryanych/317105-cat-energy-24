@@ -1,3 +1,7 @@
+.product-card__image-link {
+  text-decoration: none;
+}
+
 .product-card__title-link {
   text-decoration: none;
 }
@@ -14,9 +18,17 @@
   line-height: 16px;
 }
 
+@media (min-width: $tablet-width) {
+  .product-card {
+    padding: 35px;
+    width: 324px;
+
+    box-sizing: border-box;
+  }
+}
+
 @media (min-width: $desktop-width) {
-  .product {
-    display: flex;
-    flex-wrap: wrap;
+  .product-card {
+    width: 245px;
   }
 }

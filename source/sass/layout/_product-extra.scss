@@ -1,0 +1,10 @@
+@media (min-width: $desktop-width) {
+  .product-extra {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .product-extra__title {
+    grid-column: 1 / -1;
+  }
+}
