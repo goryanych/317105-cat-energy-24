@@ -1,0 +1,25 @@
+@media (min-width: $tablet-width) {
+  .extra-food__item {
+    display: grid;
+    grid-template-columns: 1fr 225px;
+  }
+
+  .extra-food__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .extra-food__button {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .extra-food__item {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .extra-food__button {
+    grid-column: 3 / -1;
+  }
+}
